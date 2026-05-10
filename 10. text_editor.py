@@ -9,7 +9,6 @@ def write_file(filename, content):
   with open(filename, 'w') as file:
     file.write(content)
 
-
 def get_user_input():
   print('\nEnter your text (type SAVE on a new line to save and exist):')
   
