@@ -28,7 +28,6 @@ def spin_reels():
   symbols = ['🍒', '🍋', '🔔', '⭐️', '🍉']
   return [random.choice(symbols) for _ in range(3)]
 
-
 def display_reels(reels):
   print(f'{reels[0]} | {reels[1]} | {reels[2]}')
 
