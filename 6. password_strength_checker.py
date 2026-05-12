@@ -32,8 +32,5 @@ def main():
   else:
     print('Password strength: Very Weak')
 
-
-
-
 if __name__ == '__main__':
   main()
